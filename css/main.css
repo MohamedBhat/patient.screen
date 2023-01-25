@@ -1,0 +1,1081 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url(../images/1080p.mp4);
+    background-repeat :no-repeat;
+    background-size: cover; */
+}
+
+.Video-back {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    Z-Index:-1;
+  }
+/* ################# nav bar start  ####################### */
+
+.nav-bar{
+    background-color: #2e30388f;
+    width: 100%;
+    box-shadow: 0px 5px 20px 0px #888888;
+
+}
+
+.nav-bar .parent{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* ##### LOGO ####  */
+.logo{
+    width: 120px;
+    height: 115px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: white;
+
+}
+
+.nav-bar .parent >h1{
+    padding-top: 3%;
+    color: white;
+    font-size: 50px;
+    /* text-shadow: -20px -17px 9px white; */
+}
+
+
+/* ##### HEART RATE start  ##### */
+.heart-rate {
+    width: 150px;
+    height: 73px;
+    position: relative;
+    padding-top: 2%;
+}
+  
+.fade-in {
+    position: absolute;
+    width: 500px;
+    height: 100%;
+    background-color:#2e30388f;
+    top: 0;
+    right: 0;
+    animation: heartRateIn 2.5s linear infinite;
+}
+  
+.fade-out {
+    position: absolute;
+    width: 120%;
+    height: 100%;
+    top: 0;
+    left: -120%;
+    animation: heartRateOut 2.5s linear infinite;
+    background: rgba(255, 255, 255, 1);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, #2e30388f 0%, #2e30388f 80%, rgba(255, 255, 255, 0) 100%);  
+}
+    @keyframes heartRateIn {
+    0% {
+      width: 100%;
+    }
+    50% {
+      width: 0;
+    }
+    100% {
+      width: 0;
+    }
+}
+  
+@keyframes heartRateOut {
+    0% {
+      left: -120%;
+    }
+    30% {
+      left: -120%;
+    }
+    100% {
+      left: 0;
+    }
+}
+
+/* ##### HEART RATE end  ###### */
+
+/* ################# nav bar end  ####################### */
+
+
+
+
+
+/* ################# section -1 - start  ####################### */
+
+.sec-1{
+    width: 100%;
+    height: 500px;
+    margin-top: 5%;
+    /* background-color: tomato; */
+}
+
+.sec-1 .parent{
+    width: 80%;
+    margin-left: 10%;
+    height: 560px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2e30388f;
+    box-shadow: 0 0px 20px 7px #888888;
+    border-radius: 10px
+
+}
+
+.sec-1 .parent .right{
+    /* background-color: aquamarine; */
+    width: 45%;
+}
+
+
+.sec-1 .parent .right .na-st{
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 4%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.sec-1 .parent .right .na-st .p-name{
+    width: 60%;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+.sec-1 .parent .right .na-st >select{
+    width: 30%;
+    height: 43px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.wall{
+    background-color: white;
+    height: 500px;
+    width: 5px;
+    margin-top: 2%;
+}
+
+
+
+/* ################################################### */
+
+.sec-1 .parent .left{
+    /* background-color: aquamarine; */
+    width: 45%;
+}
+
+
+.sec-1 .parent .left .na-st{
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 4%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.sec-1 .parent .left .na-st .p-name{
+    width: 60%;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+.sec-1 .parent .left .na-st >select{
+    width: 30%;
+    height: 43px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+iframe{
+    width:1000px;
+    height: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
